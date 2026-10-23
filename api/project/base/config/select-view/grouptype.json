@@ -1,0 +1,9 @@
+{
+  "track_by": "member",
+  "label": "name",
+  "value": "member",
+  "query": {
+    "table": "tabel_grouptype",
+    "column": ["tabel_grouptype.grouptype", "tabel_grouptype.name", "tabel_grouptype.member"]
+  }
+}

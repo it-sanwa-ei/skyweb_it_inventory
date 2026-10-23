@@ -1,0 +1,12 @@
+{
+  "query": [{
+    "table": "tabel_dokumen_pabean",
+    "column": "*"
+  },{
+    "table": "tabel_mutasi_bulanan",
+    "column": "*"
+  },{
+    "table": "tabel_wip",
+    "column": "*"
+  }]
+}

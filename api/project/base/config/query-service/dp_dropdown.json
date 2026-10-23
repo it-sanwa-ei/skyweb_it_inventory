@@ -1,0 +1,12 @@
+{
+  "query": [{
+    "table": "tabel_bcinout",
+    "column": "*"
+  },{
+    "table": "tabel_bctype",
+    "column": "*"
+  },{
+    "table": "tabel_tujuan",
+    "column": "*"
+  }]
+}

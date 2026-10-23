@@ -1,0 +1,99 @@
+{
+  "title": "Dokumen Pabean",
+  "primary_key": "ID",
+  "columns": [{
+    "text": "No.",
+    "value": "NoUrut",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Jenis",
+    "value": "JenisBC",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Nomor",
+    "value": "NomorBC",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Tanggal",
+    "value": "TanggalBC",
+    "type": "date",
+    "options": {
+      "format": "DD/MM/YYYY"
+    },
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "BBM",
+    "value": "BBK_BBM",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Tgl-BBM",
+    "value": "TglBBK_BBM",
+    "type": "date",
+    "options": {
+      "format": "DD/MM/YYYY"
+    },
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Supplier",
+    "value": "Penerima_Supplier",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Kode Barang",
+    "value": "KodeBarang",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Nama Barang",
+    "value": "NamaBarang",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Sat",
+    "value": "Sat",
+    "sortable": false,
+    "align": "center"
+  },{
+    "text": "Jumlah",
+    "value": "Jumlah",
+    "sortable": false,
+    "align": "right",
+    "type": "currency"
+  },{
+    "text": "Valas",
+    "value": "Valas",
+    "sortable": false,
+    "align": "center"
+  },{
+    "text": "Nilai Barang",
+    "value": "NilaiBarang",
+    "sortable": false,
+    "align": "right"
+  }],
+  "query": {
+    "table": "tabel_beacukai",
+    "column": [
+      "ID",
+      "NoUrut",
+      "JenisBC",
+      "NomorBC",
+      "TanggalBC",
+      "BBK_BBM",
+      "TglBBK_BBM",
+      "Penerima_Supplier",
+      "KodeBarang",
+      "NamaBarang",
+      "Sat",
+      "Jumlah",
+      "Valas",
+      "NilaiBarang",
+      "MasukKeluar"
+    ]
+  }
+}

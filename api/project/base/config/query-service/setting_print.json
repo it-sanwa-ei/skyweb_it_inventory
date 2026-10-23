@@ -1,0 +1,6 @@
+{
+  "query": [{
+    "table": "tabel_setting_print",
+    "column": "*"
+  }]
+}

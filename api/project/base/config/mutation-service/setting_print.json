@@ -1,0 +1,28 @@
+{
+  "table": "tabel_setting_print",
+  "roles": {
+    "insert": [1,3],
+    "update": [1,3],
+    "delete": [1,3]
+  },
+  "primary_key": "id",
+  "fields": [{
+    "id": "periode",
+    "validation": ""
+  },{
+    "id": "tempat",
+    "validation": ""
+  },{
+    "id": "tanggal",
+    "validation": ""
+  },{
+    "id": "nama",
+    "validation": ""
+  },{
+    "id": "jabatan",
+    "validation": ""
+  },{
+    "id": "jenis",
+    "validation": ""
+  }]
+}

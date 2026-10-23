@@ -1,0 +1,9 @@
+{
+  "track_by": "id_type",
+  "label": "description",
+  "value": "id_type",
+  "query": {
+    "table": "tabel_bctype",
+    "column": ["tabel_bctype.id_type", "tabel_bctype.description"]
+  }
+}

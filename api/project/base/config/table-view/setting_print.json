@@ -1,0 +1,45 @@
+{
+  "title": "Setting Print",
+  "primary_key": "id",
+  "columns": [{
+    "text": "Periode",
+    "value": "periode",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Tempat",
+    "value": "tempat",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Tanggal",
+    "value": "tanggal",
+    "sortable": false,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "Nama",
+    "value": "nama",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Jabatan",
+    "value": "jabatan",
+    "sortable": false,
+    "align": "left"
+  }],
+  "query": {
+    "table": "tabel_setting_print",
+    "column": [
+      "id",
+      "periode",
+      "tempat",
+      "tanggal",
+      "nama",
+      "jabatan"
+    ]
+  }
+}

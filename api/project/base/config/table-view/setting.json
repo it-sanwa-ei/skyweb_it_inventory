@@ -1,0 +1,42 @@
+{
+  "title": "Setting",
+  "primary_key": "no_kolom",
+  "columns": [{
+    "text": "No.",
+    "value": "no_kolom",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Nama Field",
+    "value": "nama_field",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Lebar (px)",
+    "value": "lebar",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Lebar Print",
+    "value": "lebar_print",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Alignment",
+    "value": "alignment",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Keterangan",
+    "value": "keterangan",
+    "sortable": false,
+    "align": "left"
+  }],
+  "query": {
+    "table": "tabel_setting",
+    "column": "*",
+    "where": {
+      "ORDER": "no_kolom"
+    }
+  }
+}

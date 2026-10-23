@@ -1,0 +1,9 @@
+{
+  "track_by": "tahunbulan",
+  "label": "nama",
+  "value": "tahunbulan",
+  "query": {
+    "table": "tabel_tahun_bulan",
+    "column": ["tabel_tahun_bulan.tahunbulan", "tabel_tahun_bulan.nama"]
+  }
+}
